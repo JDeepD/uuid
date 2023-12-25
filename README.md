@@ -7,7 +7,7 @@ TLDR(might be erronous in some places):
    cease to exist. UUIDs are 128 bits long and they donot require a central registration process
    to uphold their uniqueness globally. Because of this quality, they are widely used everywhere.
 
-2. UUIDs are of 128 bits(8 Octets). There is no padding between octets. To minimize confusion between
+2. UUIDs are of 128 bits(16 octets). There is no padding between octets. To minimize confusion between
    octets, fields are often chosen to be multiples of 8. Two or more non-related fields can be multiplexed(combined) to
    form a new field if the newly formed field is a multiple of 8.
 
